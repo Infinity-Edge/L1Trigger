@@ -23,6 +23,7 @@ scram b -j8
 
 Produce NTuple
 Input files path: /eos/cms/store/cmst3/user/gpetrucc/l1tr/105X/NewInputs104X/010319/
+
 To produce NTuple (e.g. ttbar PU200 sample)
 ```
 ./scripts/prun.sh runPerformanceNTuple.py --v3 TTbar_PU200 TTbar_PU200
