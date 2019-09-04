@@ -30,3 +30,5 @@ If you want to add other algorithm outputs, please use below command
 ```
 ./scripts/prun.sh runPerformanceNTuple.py --v3 TTbar_PU200 TTbar_PU200 --inline-customize 'addCHS();addPuppiOld();addTKs()'
 ```
+
+You will get two files named `perfNano.root` and `perfTuple.root`
