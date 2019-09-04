@@ -1,6 +1,4 @@
-# L1Trigger-backup
-
-# Software setup
+Software setup
 ```
 cmsrel CMSSW_10_5_0_pre1
 cd CMSSW_10_5_0_pre1/src
@@ -9,12 +7,12 @@ git cms-init
 git cms-checkout-topic -u p2l1pfp:L1PF_10_5_X_v3
 ```
 
-# scripts
+scripts
 ```
 git clone git@github.com:p2l1pfp/FastPUPPI.git -b 105X_v3
 ```
 
-# Replace L1Trigger directory
+Replace L1Trigger directory
 ```
 rm -rf L1Trigger
 git clone git@github.com:Infinity-Edge/L1Trigger.git
@@ -23,7 +21,7 @@ scram b clean
 scram b -j8
 ```
 
-# Produce NTuple
+Produce NTuple
 Input files path: /eos/cms/store/cmst3/user/gpetrucc/l1tr/105X/NewInputs104X/010319/
 To produce NTuple (e.g. ttbar PU200 sample)
 ```
